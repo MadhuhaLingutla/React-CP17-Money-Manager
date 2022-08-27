@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.transaction-row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.transaction-title {
+  width: 25%;
+  color: #475569;
+  font-size: 15px;
+}
+.transaction-amount {
+  width: 25%;
+  color: #475569;
+  font-size: 15px;
+}
+.transaction-type {
+  width: 25%;
+  color: #475569;
+  font-size: 15px;
+}
+.delete-image {
+  height: 20px;
+  width: 20px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
